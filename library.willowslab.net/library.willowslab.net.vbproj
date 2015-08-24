@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74FDE5F5-4033-45E6-9B38-43650CC8B81C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>버들라이브러리.My.MyApplication</StartupObject>
+    <RootNamespace>버들라이브러리</RootNamespace>
+    <AssemblyName>library.willowslab.net</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\library.willowslab.net.bin\</OutputPath>
+    <DocumentationFile>library.willowslab.net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>library.willowslab.net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\labicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevIL.NET, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\library.willowslab.net\library.willowslab.net\bin\Debug\DevIL.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SevenZipSharp">
+      <HintPath>..\..\ilm\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Laboratory_v1\Modules\xpAddon_7Zip.vb" />
+    <Compile Include="Laboratory_v1\Modules\xpAddon_UnloadPack.vb" />
+    <Compile Include="Laboratory_v1\Forms\xpAuth_donor.Designer.vb">
+      <DependentUpon>xpAuth_donor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v1\Forms\xpAuth_donor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v1\Modules\xpConfig.vb" />
+    <Compile Include="Laboratory_v1\Forms\xpFrmMain.Designer.vb">
+      <DependentUpon>xpFrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v1\Forms\xpFrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v1\Modules\xpFS.vb" />
+    <Compile Include="Laboratory_v1\Modules\xpLang.vb" />
+    <Compile Include="Laboratory_v1\Modules\xpMabiCore.vb" />
+    <Compile Include="Laboratory_v1\Modules\xpMD5crypto.vb" />
+    <Compile Include="Laboratory_v1\Forms\xpStart.Designer.vb">
+      <DependentUpon>xpStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v1\Forms\xpStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v1\Classes\xpWebFileDownloader.vb" />
+    <Compile Include="Laboratory_v2\Modules\vxAddon_7Zip.vb" />
+    <Compile Include="Laboratory_v2\Modules\vxAddon_UnloadPack.vb" />
+    <Compile Include="Laboratory_v2\Classes\vxCompress.vb" />
+    <Compile Include="Laboratory_v2\Modules\vxConfig.vb" />
+    <Compile Include="Laboratory_v2\Forms\vxCookTray.Designer.vb">
+      <DependentUpon>vxCookTray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxCookTray.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxFrmLiteMain.Designer.vb">
+      <DependentUpon>vxFrmLiteMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxFrmLiteMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxFrmMain.Designer.vb">
+      <DependentUpon>vxFrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxFrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v2\Modules\vxFS.vb" />
+    <Compile Include="Laboratory_v2\Forms\vxinfoView.Designer.vb">
+      <DependentUpon>vxinfoView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxinfoView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v2\Modules\vxLang.vb" />
+    <Compile Include="Laboratory_v2\Forms\vxLog.Designer.vb">
+      <DependentUpon>vxLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v2\Modules\vxMabiCore.vb" />
+    <Compile Include="Laboratory_v2\Modules\vxMD5crypto.vb" />
+    <Compile Include="Laboratory_v2\Forms\vxStart.Designer.vb">
+      <DependentUpon>vxStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v2\Classes\vxWebFileDownloader.vb" />
+    <Compile Include="Laboratory_v2\Forms\vxWebView.Designer.vb">
+      <DependentUpon>vxWebView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v2\Forms\vxWebView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v3\Classes\CoreSRINN.vb" />
+    <Compile Include="Laboratory_v3\Classes\Cryptography.vb" />
+    <Compile Include="Laboratory_v3\Forms\Laboratory.Designer.vb">
+      <DependentUpon>Laboratory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v3\Forms\Laboratory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Classes\Package.vb" />
+    <Compile Include="Library_v3\Forms\FrmMain\FrmMain\FrmMain_Structures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_00_MyBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_01_Variables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FrmMain\FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FrmMain\FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Classes\7Zip.vb" />
+    <Compile Include="Lab-Lib_Shared\Classes\ApplicationEvents.vb" />
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_02_Starter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_03_PackageWorker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_04_ListManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_05_UIact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_06_ThreadCallBack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_07_DataPackWorker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_08_Threads.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FxExtends\FrmMain_Extension_09_Filedownload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\FrmMain\FrmMain_Functions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\INIT\Init_extension_01_variable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Modules\Func.vb" />
+    <Compile Include="Library_v3\Modules\Mabinogi.vb" />
+    <Compile Include="Library_v3\Modules\MWHD.vb" />
+    <Compile Include="Library_v3\Modules\readCommand.vb" />
+    <Compile Include="Library_v3\Modules\Setting.vb" />
+    <Compile Include="Library_v3\Classes\WebFileDownloader.vb" />
+    <Compile Include="Library_v3\Classes\Zlib.vb" />
+    <Compile Include="Library_v3\Modules\MD5Crypto.vb" />
+    <Compile Include="Library_v3\References\alpha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\References\Win32.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\References\ColorHelper.vb" />
+    <Compile Include="Library_v3\References\HSB.vb" />
+    <Compile Include="Library_v3\References\RGB.vb" />
+    <Compile Include="Library_v3\Forms\Assistant.Designer.vb">
+      <DependentUpon>Assistant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\Assistant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\Auth.Designer.vb">
+      <DependentUpon>Auth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\Auth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\INIT\Init.Designer.vb">
+      <DependentUpon>Init.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\INIT\Init.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\Dialogs\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\FrmMain\Dialogs\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\NewUser.Designer.vb">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\NewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\TestAndEasterEgg.Designer.vb">
+      <DependentUpon>TestAndEasterEgg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\TestAndEasterEgg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\WillowsNP.Designer.vb">
+      <DependentUpon>WillowsNP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\WillowsNP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library_v3\Forms\windowController.Designer.vb">
+      <DependentUpon>windowController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library_v3\Forms\windowController.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratory_v3\Forms\Installer.Designer.vb">
+      <DependentUpon>Installer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory_v3\Forms\Installer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab-Lib_Shared\Forms\datapackworker.Designer.vb">
+      <DependentUpon>datapackworker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lab-Lib_Shared\Forms\datapackworker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab-Lib_Shared\Forms\notificationwindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Laboratory_v1\Forms\xpAuth_donor.resx">
+      <DependentUpon>xpAuth_donor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v1\Forms\xpFrmMain.resx">
+      <DependentUpon>xpFrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v1\Forms\xpStart.resx">
+      <DependentUpon>xpStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v2\Forms\vxCookTray.resx">
+      <DependentUpon>vxCookTray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v2\Forms\vxFrmLiteMain.resx">
+      <DependentUpon>vxFrmLiteMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v2\Forms\vxFrmMain.resx">
+      <DependentUpon>vxFrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v2\Forms\vxinfoView.resx">
+      <DependentUpon>vxinfoView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v2\Forms\vxLog.resx">
+      <DependentUpon>vxLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v2\Forms\vxStart.resx">
+      <DependentUpon>vxStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v2\Forms\vxWebView.resx">
+      <DependentUpon>vxWebView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v3\Forms\Laboratory.resx">
+      <DependentUpon>Laboratory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\FrmMain\FrmMain\FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\Assistant.resx">
+      <DependentUpon>Assistant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\Auth.resx">
+      <DependentUpon>Auth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\INIT\Init.resx">
+      <DependentUpon>Init.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\FrmMain\Dialogs\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\NewUser.resx">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\TestAndEasterEgg.resx">
+      <DependentUpon>TestAndEasterEgg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\WillowsNP.resx">
+      <DependentUpon>WillowsNP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library_v3\Forms\windowController.resx">
+      <DependentUpon>windowController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratory_v3\Forms\Installer.resx">
+      <DependentUpon>Installer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab-Lib_Shared\Forms\datapackworker.resx">
+      <DependentUpon>datapackworker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\bl.png" />
+    <None Include="Resources\bm.png" />
+    <None Include="Resources\br.png" />
+    <None Include="Resources\Card_Input.wav" />
+    <None Include="Resources\Coin_Insert.wav" />
+    <None Include="Resources\ct.png" />
+    <None Include="Resources\DevIL.NET.dll" />
+    <None Include="Resources\ico_labicon" />
+    <None Include="Resources\ico_setting" />
+    <None Include="Resources\lf.png" />
+    <None Include="Resources\lmpico.png" />
+    <None Include="Resources\Mabinogi_118.png" />
+    <None Include="Resources\Mabinogi_119.png" />
+    <None Include="Resources\Mabinogi_120.png" />
+    <None Include="Resources\Mabinogi_121.png" />
+    <None Include="Resources\Mabinogi_122.png" />
+    <None Include="Resources\Mabinogi_123.png" />
+    <None Include="Resources\Mabinogi_124.png" />
+    <None Include="Resources\Mabinogi_125.png" />
+    <None Include="Resources\Mabinogi_126.png" />
+    <None Include="Resources\Mabinogi_127.png" />
+    <None Include="Resources\Mabinogi_128.png" />
+    <None Include="Resources\Mabinogi_129.png" />
+    <None Include="Resources\Mabinogi_130.png" />
+    <None Include="Resources\Mabinogi_131.png" />
+    <None Include="Resources\Mabinogi_132.png" />
+    <None Include="Resources\Mabinogi_133.png" />
+    <None Include="Resources\Mabinogi_134.png" />
+    <None Include="Resources\Mabinogi_135.png" />
+    <None Include="Resources\Mabinogi_136.png" />
+    <None Include="Resources\Mabinogi_137.png" />
+    <None Include="Resources\Mabinogi_138.png" />
+    <None Include="Resources\Mabinogi_139.png" />
+    <None Include="Resources\Mabinogi_142.png" />
+    <None Include="Resources\Mabinogi_143.png" />
+    <None Include="Resources\Mabinogi_144.png" />
+    <None Include="Resources\Mabinogi_145.png" />
+    <None Include="Resources\Mabinogi_164.ico" />
+    <None Include="Resources\Mabinogi_165.ico" />
+    <None Include="Resources\Mabinogi_166.ico" />
+    <None Include="Resources\Mabinogi_167.ico" />
+    <None Include="Resources\Mabinogi_168.ico" />
+    <None Include="Resources\Mabinogi_169.ico" />
+    <None Include="Resources\Mabinogi_New.png" />
+    <None Include="Resources\Mabinogi_New_h.png" />
+    <None Include="Resources\mabi_Checked.png" />
+    <None Include="Resources\mabi_Checked_h.png" />
+    <None Include="Resources\mabi_Checked_nb.png" />
+    <None Include="Resources\mabi_Checked_nb_h.png" />
+    <None Include="Resources\mabi_expend.png" />
+    <None Include="Resources\mabi_expend_h.png" />
+    <None Include="Resources\mabi_expend_noborder.png" />
+    <None Include="Resources\mabi_expend_noborder_h.png" />
+    <None Include="Resources\ml.png" />
+    <None Include="Resources\mr.png" />
+    <None Include="Resources\naosupport_appear.wav" />
+    <None Include="Resources\nao_appear.wav" />
+    <None Include="Resources\openDir.png" />
+    <None Include="Resources\openDir_h.png" />
+    <None Include="Resources\plfw.png" />
+    <None Include="Resources\progressbg.png" />
+    <None Include="Resources\ribon.png" />
+    <None Include="Resources\rt.png" />
+    <None Include="Resources\tl.png" />
+    <None Include="Resources\tm.png" />
+    <None Include="Resources\tr.png" />
+    <None Include="Resources\unpack.exe" />
+    <None Include="Resources\warn_noti.wav" />
+    <None Include="Resources\window_big.png" />
+    <None Include="Resources\window_big_h.png" />
+    <None Include="Resources\window_small.png" />
+    <None Include="Resources\window_small_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library_v3\References\zlib.dll" />
+    <Content Include="Library_v3\References\zlib32.dll" />
+    <Content Include="Library_v3\References\zlib64.dll" />
+    <Content Include="Library_v3\References\zlibnet.dll" />
+    <Content Include="Resources\1415396577_698905-icon-24-key-48.png" />
+    <Content Include="Resources\1415396716_519711-219_CircledSync-48.png" />
+    <Content Include="Resources\1415396740_519900-165_ExclamationMark-48.png" />
+    <Content Include="Resources\1415396771_519736-51_Coud_Arrow_Down-48.png" />
+    <Content Include="Resources\1415396779_519838-50_Cloud_Arrow_Up-48.png" />
+    <Content Include="Resources\1415397034_519672-178_Download-48.png" />
+    <Content Include="Resources\1415397281_519899-175_Information-48.png" />
+    <Content Include="Resources\1415461404_519840-52_Cloud_Sync-48.png" />
+    <Content Include="Resources\2083770017_9b897576.png" />
+    <Content Include="Resources\236A5A960A11F5103E8CAD289F826FF9D215947F.gif" />
+    <Content Include="Resources\3745428249_152eff50_Screenshot_2014-09-07-18-49-567E01.png" />
+    <None Include="Resources\wlab2.png" />
+    <None Include="Resources\startup_image.png" />
+    <None Include="Resources\title.png" />
+    <None Include="Resources\7z.dll" />
+    <None Include="Resources\7z64.dll" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\arena_win.wav" />
+    <Content Include="Resources\big.png" />
+    <Content Include="Resources\breadnotification.png" />
+    <Content Include="Resources\checkpattern.png" />
+    <Content Include="Resources\checkpattern_noborder.png" />
+    <None Include="Resources\closebtn.png" />
+    <None Include="Resources\chick.wav" />
+    <Content Include="Resources\close_btn.png" />
+    <Content Include="Resources\close_image.png" />
+    <None Include="Resources\datatransfer_down.png" />
+    <None Include="Resources\datatransfer_normal.png" />
+    <None Include="Resources\helpfont.png" />
+    <None Include="Resources\desc01.png" />
+    <None Include="Resources\desc02.png" />
+    <None Include="Resources\desc00.png" />
+    <None Include="Resources\furseal_cute.wav" />
+    <None Include="Resources\emotion_success.wav" />
+    <Content Include="Resources\ico_png.png" />
+    <Content Include="Resources\Image1.bmp" />
+    <None Include="Resources\labicon.ico" />
+    <None Include="Resources\image_crushed.png" />
+    <Content Include="Resources\lib.png" />
+    <Content Include="Resources\librarywillowslabnet.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\loading1.gif" />
+    <None Include="Resources\librarywillowslabnet1.png" />
+    <None Include="Resources\lolipack.png" />
+    <Content Include="Resources\max.png" />
+    <Content Include="Resources\max_noborder.png" />
+    <None Include="Resources\newuser_hover.png" />
+    <None Include="Resources\newuser_down.png" />
+    <None Include="Resources\newuser_normal.png" />
+    <None Include="Resources\newuser_normal1.png" />
+    <None Include="Resources\minimize.png" />
+    <Content Include="Resources\not_pined.png" />
+    <None Include="Resources\pattern.png" />
+    <Content Include="Resources\pined.png" />
+    <None Include="Resources\SevenZipSharp.dll" />
+    <None Include="Resources\pleasewait.gif" />
+    <None Include="Resources\setting.ico" />
+    <None Include="Resources\skill_complete.wav" />
+    <Content Include="Resources\small.png" />
+    <None Include="Resources\tvn_file.png" />
+    <None Include="Resources\tvn_folder_open.png" />
+    <None Include="Resources\tvn_folder_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Laboratory_v3\Modules\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

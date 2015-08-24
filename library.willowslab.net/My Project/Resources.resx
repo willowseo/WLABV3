@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkpattern_noborder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkpattern_noborder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emotion_success" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emotion_success.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_expend_noborder_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_expend_noborder_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_Checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_Checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newuser_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newuser_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_New_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_New_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_expend_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_expend_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_New" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_New.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ribon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closebtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closebtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lmpico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lmpico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti_warn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415396740_519900-165_ExclamationMark-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_164.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_169.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pattern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pattern.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti_completefiledownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415397034_519672-178_Download-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newuser_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newuser_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="labicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_png.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_119.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image_crushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image_crushed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="openDir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openDir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window_big_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window_big_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_124.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti_information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415397281_519899-175_Information-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="max" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\max.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti_completedownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415396771_519736-51_Coud_Arrow_Down-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="breadnotification" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\breadnotification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_139.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415396577_698905-icon-24-key-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti_sync" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415461404_519840-52_Cloud_Sync-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ml.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noti_reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415396716_519711-219_CircledSync-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_165.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tvn_file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tvn_file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Card_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Card_Input.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="noti_completeupload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1415396779_519838-50_Cloud_Arrow_Up-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="library_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lib.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_labicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_labicon;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pined" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pined.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_expend_noborder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_expend_noborder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desc00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desc00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevIL_NET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevIL.NET.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_setting;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="librarywillowslabnet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\librarywillowslabnet1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desc02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desc02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_134.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tvn_folder_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tvn_folder_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pleasewait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pleasewait.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unpack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unpack.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openDir_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openDir_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="datatransfer_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datatransfer_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tvn_folder_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tvn_folder_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_167.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progressbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progressbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plfw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plfw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_Checked_nb_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_Checked_nb_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ct.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_166.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_145.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="max_noborder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\max_noborder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_Checked_nb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_Checked_nb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_expend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_expend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SevenZipSharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SevenZipSharp.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newuser_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newuser_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desc01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desc01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabi_Checked_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabi_Checked_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helpfont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpfont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="easteregg_kuroneko_masturbation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\236A5A960A11F5103E8CAD289F826FF9D215947F.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7z.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="br" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\br.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="not_pined" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\not_pined.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window_big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7z64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7z64.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="window_small_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window_small_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mabinogi_168" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mabinogi_168.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkpattern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkpattern.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="datatransfer_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datatransfer_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="startup_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\startup_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lolipack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lolipack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wlab2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wlab2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
